@@ -1,0 +1,38 @@
+div {
+    border : 0.3em solid black;
+    border-radius: 1em;
+    margin: auto;
+    background-color: rgba(206,206,206, 0.8);
+    margin-left: 5em;
+    margin-right: 5em;
+    }
+
+h1 {
+    background-color: rgba(206,206,206, 0.8);
+    border: 0.3em  solid #CCACAC;
+    border-radius: 1.5em;
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em
+    }
+
+.titrediv {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: cursive;
+    }
+
+#textcentre{
+  text-align: center;
+  color: #CCACAC;
+  }
+
+body{
+  position: relative;
+  background-image:url(photo1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #CECECE;
+}
