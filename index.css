@@ -1,12 +1,45 @@
 header {
-  
+height: 98% ;
+width: 98%;
+  border: 2px solid black;
+  padding-bottom: 25%;
+  padding-top: 25%;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  margin: 1%;
+  font-size: 30px;
 
+}
+
+header a {
+  text-decoration: none;
+  color: grey;
+    font-size: 25px;
+}
+
+#section1 {
+  height: 98% ;
+  width: 98%;
+    border: 2px solid black;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    text-align: center;
+    margin: 1%;
+    font-size: 20px;
 
 
 }
 
-
-
+#section2{
+  height: 98% ;
+  width: 98%;
+    border: 2px solid black;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    text-align: center;
+    margin: 1%;
+    font-size: 20px;
+}
 
 
 
