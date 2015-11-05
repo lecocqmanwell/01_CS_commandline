@@ -1,70 +1,116 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
-    <link type="text/css" rel="stylesheet" href="index.css"/>
-    <link type="text/css" rel="stylesheet" href="index2.css" media="screen and (max-width:321px) ">
 
-    <title>Command Line</title>
-  </head>
-  <body>
+<head>
+  <link type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css"/>
+  <title>Command Line</title>
+</head>
+<body>
+  <article class="cheatsheet">
     <header id="header">
       <h1>How to use the Command Lines</h1>
-<a href="#section1">Directory Operations</a>
-<a href="#section2">How to find</a>
+      <a href="#section1">Directory Operations</a>
+      <a href="#section2">How to find</a>
     </header>
     <section>
-
-  <div id="section1">
-
-
-
-          <p class="titrediv">Directory Operations</p>
-            <ul>
-              <li>pwd<br/>Show current directory</li>
-              <li>mkdir<br/>Make directory dir</li>
-              <li>cd dir<br/>Change directory to dir</li>
-              <li>cd<br/>Go up a directory</li>
-              <li>ls<br/>List files</li>
-                <ul>
-                  <li><em> -a</em> "list all files"</li>
-                  <li><em> -l</em> "list long files"</li>
-                  <li><em> -t</em> "orders files and directories by the time they were last modified "</li>
-                </ul>
-              <li>touch<br/>Create file</li>
-              <li>cp<br/>Copying files</li>
-              <li>mv<br/>Move and rename files</li>
-              <li>rm<br/>Remove file</li>
-                <ul><li><em> -r</em> remove directory</li>
-                </ul>
-            </ul>
-            <a href="#header"><img src="images/fleche.png" alt="fleche vers le haut" /></a>
-
-                      </div>
-      </section>
+      <div id="section1">
+        <h3 class="titrediv">Directory Operations</h3>
+        <ul>
+          <li>
+            <code>pwd</code>
+            <dt>Show current directory</dt>
+          </li>
+          <li>
+            <code>mkdir</code>
+            <dt>Make directory dir</dt>
+          </li>
+          <li>
+            <code>cd dir</code>
+            <dt>Change directory to dir</dt>
+          </li>
+          <li>
+            <code>cd</code>
+            <dt>Go up a directory</dt>
+          </li>
+          <li>
+            <code>ls</code>
+            <dt>List files</dt>
+          </li>
+          <ul>
+            <li>
+              <code>-a</code>
+              <dt>"list all files"</dt>
+            </li>
+            <li>
+              <code>-l</code>
+              <dt>"list long files"</dt>
+            </li>
+            <li>
+              <code>-t</code>
+              <dt>"orders files and directories by the time they were last modified "</dt>
+            </li>
+          </ul>
+          <li>
+            <code>touch</code>
+            <dt></dt>Create file</li>
+          <li>
+            <code>cp</code>
+            <dt>Copying files</dt>
+          </li>
+          <li>
+            <code>mv</code>
+            <dt>Move and rename files</dt>
+          </li>
+          <li>
+            <code>rm</code>
+            <dt>Remove file</dt>
+          </li>
+          <ul>
+            <li>
+              <code>-r</code>
+              <dt></dt>remove directory</li>
+          </ul>
+        </ul>
+        <a href="#header">
+          <img src="images/fleche.png" alt="fleche vers le haut" />
+        </a>
+      </div>
+    </section>
     <section>
-<div id="section2">
+      <div id="section2">
+        <h3>How to find ...</h3>
+        <ul>
+          <li>
+            <code>grep</code>
+            <dt>Searches for a text pattern and outputs it</dt>
+          </li>
+          <li>
+            <code>sed</code>
+            <dt>Searches for a text pattern, modifies it, and outputs it</dt>
+          </li>
+          <li>
+            <code>uniq</code>
+            <dt>Filters duplicate, adjacent lines of text</dt>
+          </li>
+          <li>
+            <code>sort</code>
+            <dt>Sorts lines of text alphabetically</dt>
+          </li>
+        </ul>
+        <a href="#header">
+          <img src="images/fleche.png" alt="fleche vers le haut" />
+        </a>
+      </div>
+    </section>
+    <footer>
+      <a href="#section1">Directory Operations</a>
+      <a href="#section2">How to find</a>
+      <a href="#header">
+        <img src="images/fleche.png" alt="fleche vers le haut" />
+      </a>
+    </footer>
+  </article>
+</body>
 
-
-
-
-          <p class="titrediv">How to find ...</p>
-            <ul>
-              <li>grep<br/>searches for a text pattern and outputs it</li>
-              <li>sed<br/>Searches for a text pattern, modifies it, and outputs it</li>
-              <li>uniq<br/>Filters duplicate, adjacent lines of text</li>
-                <li>sort<br/>Sorts lines of text alphabetically</li>
-            </ul>
-            <a href="#header"><img src="images/fleche.png" alt="fleche vers le haut" /></a>
-
-          </div>
-        </section>
-        <footer>
-
-
-
-        </footer>
-
-
-  </body>
-  </html>
+</html>

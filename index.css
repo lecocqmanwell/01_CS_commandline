@@ -1,90 +1,12 @@
+/*body {
+  font-size: 62.5%;
+}
+
 header {
-height: 98% ;
-width: 98%;
-  border: 2px solid black;
-  padding-bottom: 25%;
-  padding-top: 25%;
-  font-family: "Indie Flower", cursive;
-  text-align: center;
-  margin: 1%;
-  font-size: 30px;
+font-size:3em;
+display: block;
+text-align: center;
+padding-top: 25% ;
+padding-bottom: 45% ;*/
 
 }
-
-header a {
-  text-decoration: none;
-  color: grey;
-    font-size: 25px;
-}
-
-#section1 {
-  height: 98% ;
-  width: 98%;
-    border: 2px solid black;
-    padding-bottom: 15%;
-    padding-top: 15%;
-    text-align: center;
-    margin: 1%;
-    font-size: 20px;
-
-
-}
-
-#section2{
-  height: 98% ;
-  width: 98%;
-    border: 2px solid black;
-    padding-bottom: 15%;
-    padding-top: 15%;
-    text-align: center;
-    margin: 1%;
-    font-size: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*div {
-    border : 0.3em solid black;
-    border-radius: 1em;
-    margin: auto;
-    background-color: rgba(206,206,206, 0.8);
-    margin-left: 5em;
-    margin-right: 5em;
-    }
-
-h1 {
-    background-color: rgba(206,206,206, 0.8);
-    border: 0.3em  solid #CCACAC;
-    border-radius: 1.5em;
-    font-family: "Indie Flower", cursive;
-    text-align: center;
-    margin-left: 5em;
-    margin-right: 5em
-    }
-
-.titrediv {
-    text-align: center;
-    font-size: 1.5em;
-    font-family: cursive;
-    }
-
-
-
-body{
-  position: relative;
-  background-color: #CECECE;
-}
-*/
