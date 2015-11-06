@@ -23,9 +23,14 @@ header a {
 section {
   font-size: 1.5em;
   margin: 2%;
-  padding: auto;
   font-family: fantasy;
   border: 2px solid black;
+
+}
+
+
+ul li{
+  list-style-type: none;
 }
 img {
   max-width: 20%;
@@ -40,14 +45,20 @@ text-align: center;
 
 }
 code {
-  text-align: justify;
+  text-align: left;
 }
 dt{
-  text-align: center;
+
   font-size: 1em;
+
 
 }
 .com {
   background-color: #CECECE;
   border-radius: .5em;
+}
+footer{
+
+  text-decoration: none;
+  font-size: 1.5em;
 }
