@@ -1,3 +1,6 @@
+@media screen and (max-width:599px) {
+
+
 body {
   font-size: 62.5%;
   background-color: rgb(124, 55, 41)
@@ -6,19 +9,18 @@ header {
   font-size: 1.7em;
   display: block;
   text-align: center;
-  padding-top: 25%;
+  padding-top: 23%;
   padding-bottom: 45%;
   font-family: fantasy;
   border: 2px solid black;
   margin: 2%;
 }
 header a {
-  text-decoration: none;
   text-align: justify;
   font-size: 1.5em;
   display: inline-block;
   padding-top: 15%;
-  color: black;
+  color: #CECECE;
   font-family: cursive;
 }
 section {
@@ -52,11 +54,143 @@ dt {
   border-radius: .5em;
 }
 footer a {
-  text-decoration: none;
   font-size: 1.3em;
-  color: black;
+  color:#CECECE;
   display: inline-block;
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
+}
+}
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 62.5%;
+    background-color: rgb(124, 55, 41)
+  }
+  header {
+    font-size: 2.5em;
+    display: block;
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 45%;
+    font-family: fantasy;
+    border: 2px solid black;
+    margin: 2%;
+  }
+  header a {
+    text-align: center;
+    font-size: 1.7em;
+    display:block;
+
+    padding-top: 15%;
+    color: #CECECE;
+    font-family: cursive;
+  }
+  section {
+    font-size: 1.8em;
+    margin: 2%;
+    font-family: fantasy;
+    border: 2px solid black;
+  }
+  ul li {
+    list-style-type: none;
+  }
+
+
+  h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+  code {
+    font-size: 1.8em;
+    text-align: left;
+    margin-left: -3%;
+  }
+  dt {
+    font-size: 1.8em;
+    margin-left: 4%;
+  }
+  .com {
+    background-color: #CECECE;
+    border-radius: .5em;
+  }
+  footer a {
+    font-size: 1.5em;
+    color:#CECECE;
+    display: block;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media screen and (min-width: 900px) {
+
+
+
+body {
+  font-size: 62.5%;
+  background-color: rgb(124, 55, 41)
+}
+header {
+  font-size: 3em;
+  display: block;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: fantasy;
+  border: 2px solid black;
+  margin: 2%;
+}
+header a {
+  text-align: justify;
+  font-size: 1em;
+  display: inline-block;
+  padding-top: 15%;
+  color: #CECECE;
+  font-family: cursive;
+}
+section {
+  font-size: 2.3em;
+  margin: 2%;
+  font-family: fantasy;
+  border: 2px solid black;
+}
+ul li {
+  list-style-type: none;
+}
+section img {
+  max-width: 10%;
+  max-height: 10%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+h3 {
+  text-align: center;
+}
+code {
+  text-align: left;
+  margin-left: 8%;
+}
+dt {
+  font-size: 1.3em;
+  margin-left: 10%;
+}
+.com {
+  background-color: #CECECE;
+  border-radius: .5em;
+}
+footer a {
+  font-size: 1.3em;
+  color:#CECECE;
+  display: block;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+footer img {
+  max-width: 10%;
+  max-height: 10%;
+  margin-left: 40%;
+  margin-right: 40%;
+  }
 }
