@@ -1,6 +1,6 @@
 body {
   font-size: 62.5%;
-  background-color:rgba(60, 56, 58, 0.27);
+  background-color: rgb(124, 55, 41)
 }
 header {
   font-size: 1.7em;
@@ -26,9 +26,8 @@ section {
   margin: 2%;
   font-family: fantasy;
   border: 2px solid black;
-
 }
-ul li{
+ul li {
   list-style-type: none;
 }
 img {
@@ -37,14 +36,14 @@ img {
   margin-left: 40%;
   margin-right: 40%;
 }
-h3{
-text-align: center;
+h3 {
+  text-align: center;
 }
 code {
   text-align: left;
-   margin-left: -7%;
+  margin-left: -7%;
 }
-dt{
+dt {
   font-size: 1em;
   margin-left: -3%;
 }
@@ -52,7 +51,7 @@ dt{
   background-color: #CECECE;
   border-radius: .5em;
 }
-footer a{
+footer a {
   text-decoration: none;
   font-size: 1.3em;
   color: black;
