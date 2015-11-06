@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8" lang="fr">
   <link type="text/css" rel="stylesheet" href="index.css" />
+  <meta name="viewport" content="width-device-width, initial-scale=1.0" />
   <title>Command Line</title>
 </head>
-
 <body>
   <article class="cheatsheet">
     <header id="header">
@@ -14,136 +14,93 @@
       <a href="#section1">Directory Operations</a>
       <a href="#section2">How to find</a>
     </header>
-    <section>
-      <div id="section1">
-        <h3 class="titrediv">Directory Operations</h3>
+    <section class="section1">
+      <h3 class="titrediv">Directory Operations</h3>
+      <ul>
+        <li>
+          <code class="com">pwd</code>
+          <dt>Show current directory</dt>
+        </li>
+        <li>
+          <code class="com">mkdir</code>
+          <dt>Make directory dir</dt>
+        </li>
+        <li>
+          <code class="com">cd dir</code>
+          <dt>Change directory to dir</dt>
+        </li>
+        <li>
+          <code class="com">cd</code>
+          <dt>Go up a directory</dt>
+        </li>
+        <li>
+          <code class="com">ls</code>
+          <dt>List files</dt>
+        </li>
         <ul>
           <li>
-            <div class="com">
-              <code>pwd</code>
-            </div>
-            <dt>Show current directory</dt>
+            <code class="com">-a</code>
+            <dt>"list all files"</dt>
           </li>
           <li>
-            <div class="com">
-              <code>mkdir</code>
-            </div>
-
-
-            <dt>Make directory dir</dt>
+            <code class="com">-l</code>
+            <dt>"list long files"</dt>
           </li>
           <li>
-            <div class="com">
-              <code>cd dir</code>
-            </div>
-
-
-            <dt>Change directory to dir</dt>
+            <code class="com">-t</code>
+            <dt>"orders files and directories by the time they were last modified "</dt>
           </li>
-          <li>
-            <div class="com">
-              <code>cd</code>
-            </div>
-
-            <dt>Go up a directory</dt>
-          </li>
-          <li>
-            <div class="com">
-              <code>ls</code>
-            </div>
-            <dt>List files</dt>
-          </li>
-          <ul>
-            <li>
-              <div class="com">
-                <code>-a</code>
-              </div>
-              <dt>"list all files"</dt>
-            </li>
-            <li>
-              <div class="com">
-                <code>-l</code>
-              </div>
-              <dt>"list long files"</dt>
-            </li>
-            <li>
-              <div class="com">
-                <code>-t</code>
-              </div>
-              <dt>"orders files and directories by the time they were last modified "</dt>
-            </li>
-          </ul>
-          <li>
-            <div class="com">
-              <code>touch</code>
-            </div>
-            <dt>Create file</dt>
-          </li>
-          <li>
-            <div class="com">
-              <code>cp</code>
-            </div>
-            <dt>Copying files</dt>
-          </li>
-          <li>
-            <div class="com">
-              <code>mv</code>
-            </div>
-            <dt>Move and rename files</dt>
-          </li>
-          <li>
-            <div class="com">
-              <code>rm</code>
-            </div>
-            <dt>Remove file</dt>
-          </li>
-          <ul>
-            <li>
-              <div class="com">
-                <code>-r</code>
-              </div>
-              <dt>remove directory</dt>
-            </li>
-          </ul>
         </ul>
-        <a href="#header">
-          <img src="images/fleche.png" alt="fleche vers le haut" />
-        </a>
-      </div>
+        <li>
+          <code class="com">touch</code>
+          <dt>Create file</dt>
+        </li>
+        <li>
+          <code class="com">cp</code>
+          <dt>Copying files</dt>
+        </li>
+        <li>
+          <code class="com">mv</code>
+          <dt>Move and rename files</dt>
+        </li>
+        <li>
+          <code class="com">rm</code>
+          <dt>Remove file</dt>
+        </li>
+        <ul>
+          <li>
+            <code class="com">-r</code>
+            <dt>remove directory</dt>
+          </li>
+        </ul>
+      </ul>
+      <a href="#header">
+        <img src="images/fleche.png" alt="fleche vers le haut" />
+      </a>
     </section>
-    <section>
-      <div id="section2">
-        <h3>How to find ...</h3>
-        <ul>
-          <li>
-            <div class="com">
-              <code>grep</code>
-            </div>
-            <dt>Searches for a text pattern and outputs it</dt>
-          </li>
-          <li>
-            <div class="com">
-              <code>sed</code>
-            </div>
-            <dt>Searches for a text pattern, modifies it, and outputs it</dt>
-          </li>
-          <li>
-            <div class="com">
-              <code>uniq</code>
-            </div>
-            <dt>Filters duplicate, adjacent lines of text</dt>
-          </li>
-          <li>
-            <div class="com">
-              <code>sort</code>
-            </div>
-            <dt>Sorts lines of text alphabetically</dt>
-          </li>
-        </ul>
-        <a href="#header">
-          <img src="images/fleche.png" alt="fleche vers le haut" />
-        </a>
-      </div>
+    <section class="section2">
+      <h3>How to find ...</h3>
+      <ul>
+        <li>
+          <code class="com">grep</code>
+          <dt>Searches for a text pattern and outputs it</dt>
+        </li>
+        <li>
+          <code class="com">sed</code>
+          <dt>Searches for a text pattern, modifies it, and outputs it</dt>
+        </li>
+        <li>
+          <code class="com">uniq</code>
+          <dt>Filters duplicate, adjacent lines of text</dt>
+        </li>
+        <li>
+          <code class="com">sort</code>
+          <dt>Sorts lines of text alphabetically</dt>
+        </li>
+      </ul>
+      <a href="#header">
+        <img src="images/fleche.png" alt="fleche vers le haut" />
+      </a>
     </section>
     <footer>
       <a href="#section1">Directory Operations</a>
@@ -154,5 +111,4 @@
     </footer>
   </article>
 </body>
-
 </html>

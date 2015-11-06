@@ -2,7 +2,7 @@ body {
   font-size: 62.5%;
 }
 header {
-  font-size: 3.5em;
+  font-size: 1.4em;
   display: block;
   text-align: center;
   padding-top: 25%;
@@ -20,13 +20,16 @@ header a {
   color: black;
   font-family: cursive;
 }
-#section1 {
-  font-size: 3.5em;
-  display: block;
-  padding : auto;
+section {
+  font-size: 1.4em;
+  margin: 2%;
+  padding: auto;
   font-family: fantasy;
   border: 2px solid black;
-  margin: 2%;
+}
+img {
+  max-width: 20%;
+  max-height: 20%;
 }
 
 h3{
@@ -40,4 +43,8 @@ dt{
   text-align: center;
   font-size: 1em;
 
+}
+.com {
+  background-color: #CECECE;
+  border-radius: .5em;
 }
